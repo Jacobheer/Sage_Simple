@@ -1,9 +1,296 @@
 /*~~~~~~~~~~~~~~~~~~~~~
  Importing Fonts
 ~~~~~~~~~~~~~~~~~~~~~*/
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,300);
 @import url(https://fonts.googleapis.com/css?family=Teko:400,300);
 
 *{
 	box-sizing: border-box;
 }
+
+img {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+	border: 1px solid black;
+}
+
+/*text styling __________________________*/
+
+body {
+	font-family: 'titillium web';
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1, 
+h2,
+h3,
+.link,
+.button {
+	font-family: 'teko';
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 120px;
+	letter-spacing: 17px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-weight: 400;
+	letter-spacing: 6px;
+	color: black;
+	font-size: 40px;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+
+	/*nav text*/
+
+.nav-links a {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-links .active a {
+	color: #f63c3c;
+}
+
+	/*carousel text*/
+.content {
+	color: white;
+}
+
+.content p {
+	font-size: 22px;
+	font-weight: 200;
+}
+
+	/*projects text*/
+
+article>p {
+	font-size: 14px;
+	text-align: center;
+}
+
+	/*footer text*/
+
+footer a {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #f63c3c;
+}
+
+	/*cta text*/
+
+.cta p {
+	font-size: 16px;
+	text-align: center;
+}
+
+/*nav styling_______________________*/
+
+.top-header{
+	height: 70px;
+	max-width: 1170px;
+	width: 100%;
+	margin: auto;
+}
+
+.logo {
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+
+.nav-links {
+	float: right;
+}
+
+.nav-links li {
+	display: inline-block;
+	height: 70px;
+	margin-left: 40px;
+}
+
+.nav-links li a{
+	display: inline-block;
+	padding-top: 26px;
+}
+
+.nav-links .active {
+	border-bottom: 4px solid #f63c3c;
+}
+
+.nav-links .active a {
+	color: #f63c3c;
+
+}
+
+/*button styling_________________________*/
+
+.button {
+	display: block;
+	width: 230px;
+	height: 50px;
+	background-color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin: auto;
+	padding-top: 17px;
+}
+
+
+/*carousel styling_____________________*/
+
+.slideshow li:nth-child(1n+2) {
+	display: none;
+}
+
+.content {
+	width: 100%;
+	max-width: 1170px;
+	margin: auto;
+}
+
+.content p {
+	max-width: 720px;
+	width:100%;
+	text-align: center;
+	margin: auto;
+}
+
+.slideshow .active {
+	background-image: url('../img/background1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	max-height: 1082px;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 300px 0;
+}
+
+.slideshow h1 {
+	margin-bottom: 10px;
+}
+
+.slideshow p {
+	margin-bottom: 50px;
+}
+
+/*.carousel {
+	margin-bottom: 50px;
+}*/
+	
+	/*breadcrumbs*/
+
+.pagination ul {
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: 85px;
+}
+
+.pagination li {
+	display: inline-block;
+	width: 40px;
+	height: 3px;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.pagination li.active {
+	background-color: white;
+}
+
+/*project styling_______________________*/
+
+.projects h2 {
+	margin-bottom: 45px;
+}
+
+.wrapper {
+	font-size: 0;
+	padding: 0 1%;
+	margin: 0 auto;
+}
+
+article {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+article:last-child {
+	margin-left: 1%;
+}
+
+figure {
+	
+}
+
+figcaption {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cta {
+	height: 240px;
+	background-color: #f63c3c
+}
+
+.social-media {
+	height: 430px;
+	background-color: #fafafa;
+}
+
+.fa {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

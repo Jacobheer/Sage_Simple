@@ -18,7 +18,7 @@
 		
 		<div class="container">
 			
-			<div class="logo"><img src="img/logo.svg" alt="SAGE"></div>
+			<div><img src="img/logo.svg" class="logo" alt="SAGE"></div>
 
 			<nav class="navigation">
 				
@@ -109,90 +109,93 @@
 
 			<!-- This div will contain all the article tiles -->
 			<!-- We add a class of clearfix in order to clear the floats for all the child elements -->
-			<div class="clearfix">
+			<div class="clearfix wrapper">
 
 				<!-- Each Tile is an article -->
-				<article>
-					<figure>
-
-						<!-- The image is wrapped with an anchor tag because it's meant to be a clickable link -->
-						<a href="#">
-							<img src="img/projects/tesla.jpg" alt="Tesla">
-
-							<!-- The Figcaption will be the content that shows up on mousehover -->
-							<figcaption>
-								<h4>
-									<time datetime="2014">Year 2014</time>
-									Client: Personal Project
-								</h4>
-								<p>Digital / Mobile / Editorial</p>
-							</figcaption>
-						
-						</a>	
-					</figure>
-
-					<!-- Content below the image tile -->
-					<h3><a href="#">Model S Catalog</a></h3>
-					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
-				</article>
-
-				<article>
-					<a href="#">
-						<figure>					
-							<img src="img/projects/stuhrling.jpg" alt="Tesla">
-
-							<figcaption>
-								<h4>
-									<time datetime="2014">Year 2014</time>
-									Client: Personal Project
-								</h4>
-								<p>Digital / Mobile / Editorial</p>
-							</figcaption>					
-						</figure>
-					</a>	
-
-					<h3><a href="#">Model S Catalog</a></h3>
-					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
-				</article>
-
-				<article>
-					<a href="#">
+				<div class="row clearfix">
+					<article>
 						<figure>
-							<img src="img/projects/curiosity.jpg" alt="Tesla">
+
+							<!-- The image is wrapped with an anchor tag because it's meant to be a clickable link -->
+							<a href="#">
+								<img src="img/projects/tesla.jpg" alt="Tesla">
+
+								<!-- The Figcaption will be the content that shows up on mousehover -->
+								<figcaption>
+									<h4>
+										<time datetime="2014">Year 2014</time>
+										Client: Personal Project
+									</h4>
+									<p>Digital / Mobile / Editorial</p>
+								</figcaption>
 							
-							<figcaption>
-								<h4>
-									<time datetime="2014">Year 2014</time>
-									Client: Personal Project
-								</h4>
-								<p>Digital / Mobile / Editorial</p>
-							</figcaption>					
+							</a>	
 						</figure>
-					</a>	
 					
-					<h3><a href="#">Model S Catalog</a></h3>
-					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
-				</article>
+						<!-- Content below the image tile -->
+						<h3><a href="#">Model S Catalog</a></h3>
+						<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+					</article>
 
-				<article>
-					<figure>
+					<article>
 						<a href="#">
-							<img src="img/projects/penguin.jpg" alt="Tesla">
-							
-							<figcaption>
-								<h4>
-									<time datetime="2014">Year 2014</time>
-									Client: Personal Project
-								</h4>
-								<p>Digital / Mobile / Editorial</p>
-							</figcaption>
-						</a>	
-					</figure>
-					
-					<h3><a href="#">Model S Catalog</a></h3>
-					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
-				</article>
+							<figure>					
+								<img src="img/projects/stuhrling.jpg" alt="Tesla">
 
+								<figcaption>
+									<h4>
+										<time datetime="2014">Year 2014</time>
+										Client: Personal Project
+									</h4>
+									<p>Digital / Mobile / Editorial</p>
+								</figcaption>					
+							</figure>
+						</a>	
+
+						<h3><a href="#">Model S Catalog</a></h3>
+						<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+					</article>
+				</div>
+				
+				<div class="row clearfix">
+					<article>
+						<a href="#">
+							<figure>
+								<img src="img/projects/curiosity.jpg" alt="Tesla">
+								
+								<figcaption>
+									<h4>
+										<time datetime="2014">Year 2014</time>
+										Client: Personal Project
+									</h4>
+									<p>Digital / Mobile / Editorial</p>
+								</figcaption>					
+							</figure>
+						</a>	
+						
+						<h3><a href="#">Model S Catalog</a></h3>
+						<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+					</article>
+
+					<article>
+						<figure>
+							<a href="#">
+								<img src="img/projects/penguin.jpg" alt="Tesla">
+								
+								<figcaption>
+									<h4>
+										<time datetime="2014">Year 2014</time>
+										Client: Personal Project
+									</h4>
+									<p>Digital / Mobile / Editorial</p>
+								</figcaption>
+							</a>	
+						</figure>
+						
+						<h3><a href="#">Model S Catalog</a></h3>
+						<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+					</article>
+				</div>
 			</div>	
 
 			<!-- The footer section of this section -->
