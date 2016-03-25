@@ -109,6 +109,24 @@ footer a {
 	font-weight: 200;
 }
 
+	/*social text*/
+
+.social-link {
+	font-family: 'teko';
+	font-weight: 100;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+}
+
+	/*footer text*/
+
+footer small {
+	font-size: 13px;
+	color: #555555;
+}
+
 /*nav styling_______________________*/
 
 .top-header{
@@ -284,7 +302,6 @@ figcaption {
 	height: 240px;
 	background-color: #f63c3c;
 	padding-top: 55px;
-	margin-bottom: 60px;
 }
 
 .cta h2, 
@@ -300,18 +317,58 @@ figcaption {
 	margin-bottom: 25px;
 }
 
-
-
-
-
+/*social media styling_______________________*/
 
 .social-media {
 	height: 430px;
 	background-color: #fafafa;
+	margin: auto;
+	padding-top: 60px;
+	margin-bottom: 20px;
+}
+
+.social-media .container {
+	width: 100%;
+	max-width: 1170px;
+	margin: auto;
+}
+
+.social-media h2 {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.social-media p {
+	margin-bottom: 55px;
+}
+
+.social-media ul {
+	text-align: center;
+}
+
+.social-links li a {
+	float: left;
+	height: 190px;
+	width: 22%;
+	background-color: #30282a;
+	padding-top: 50px;
+	margin-right: 3%;
 }
 
 .fa {
 	display: block;
+	font-size: 45px;
+	color: white;
+	margin-bottom: 15px;
+}
+
+/*footer styling_____________________*/
+
+.small {
+	display: block;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto 35px;
 }
 
 
